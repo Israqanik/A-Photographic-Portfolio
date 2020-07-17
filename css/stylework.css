@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../our_works.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+nav{
+	color: #fff;
+}
+ul{
+	float: right;
+	list-style-type: none;
+
+	margin-top: 35px;
+}
+
+ul li{
+	display: inline-block;	
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 50px;
+	border: 1px solid transparent;
+
+	transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+
+	margin-top: 10px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1 a{
+	color: #fff;
+	font-size: 40px;
+}
+
+.title h1 a:hover{
+	font-size: 50px;
+	color: #ffd700;
+}
+.title1{
+	position: absolute;
+	top:45%;
+	left: 8%;
+}
+
+.title1 h2 a{
+	color: #fff;
+	font-size: 40px;
+	margin-left: 0px;
+	margin-top: -30px;
+}
+.title1 h2 a:hover{
+	font-size: 50px;
+	color: #ffd700;
+}
+.title2{
+	position: absolute;
+	top:44%;
+	left: 73%;
+}
+.title2 h3 a{
+	color: #fff;
+	font-size: 40px;
+	margin-left: 00px;
+	margin-top: -00px;
+}
+.title2 h3 a:hover{
+	font-size: 50px;
+	color: #ffd700;
